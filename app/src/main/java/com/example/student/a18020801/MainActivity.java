@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
     }
     public void click1(View v)
     {
-
-
         AlarmManager am = (AlarmManager) getSystemService(ALARM_SERVICE);  //由系統取回
         Intent intent = new Intent(this, MyAlarmService.class);
 
